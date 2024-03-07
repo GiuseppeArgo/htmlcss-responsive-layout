@@ -30,6 +30,9 @@
         margin: 0 auto;
     }
 
+    .benefits .benefits-card {
+        width: 30%;
+    }
 }
 
 
@@ -68,5 +71,16 @@
         height: 100%;
     }
 
+    /* benefits section */
+
+    .benefits {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .benefits-card {
+        width: 48%;
+    }
 
 }
