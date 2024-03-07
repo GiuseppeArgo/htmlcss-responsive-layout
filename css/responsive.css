@@ -57,5 +57,16 @@
         width: 100%;
     }
 
+    /* testimonials section */
+
+    .testimonial-card {
+        display: flex;
+    }
+
+    .testimonial-card-img {
+        width: 40%;
+        height: 100%;
+    }
+
 
 }

@@ -77,7 +77,6 @@ main {
     width: 100%;
     /* debug */
     height: 400px;
-    padding-bottom: 20px;
     border: 1px solid black;
 }
 
@@ -99,4 +98,25 @@ main {
 .right-planning {
     background-color: white;
     border-radius: 25px;
+}
+
+/* testimonials section */
+
+.testimonial-section {
+    padding: 30px 0 50px 0;
+}
+
+.testimonial-card {
+    background-color: #9792e4;
+    border-radius: 15px;
+    width: 100%;
+    /* debug */
+    height: 300px;
+    margin: 10px 0;
+}
+
+.testimonial-card-img {
+    /* debug */
+    border: 1px solid black;
+    height: 150px;
 }
