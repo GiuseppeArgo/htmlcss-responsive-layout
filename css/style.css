@@ -13,8 +13,14 @@ img {
 /* utilities */
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+}
+
+.second-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #9792e4;
 }
 
 .flex {
@@ -60,6 +66,7 @@ main {
 .function-card-section {
     width: 100%;
     gap: 10px;
+    padding-bottom: 50px;
     flex-direction: column;
     min-height: 900px ;
 }
@@ -81,4 +88,15 @@ main {
     /* debug */
     height: 400px;
     border: 1px solid black;
+}
+
+/* planning section */
+
+.planning-section {
+    padding: 50px 0 30px 0;
+}
+
+.right-planning {
+    background-color: white;
+    border-radius: 25px;
 }

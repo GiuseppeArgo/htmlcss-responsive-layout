@@ -1,11 +1,10 @@
-/* header */
-
 @media screen and (min-width: 992px) {
+    /* header */
 
     .container {
         width: 60%;
     }
-    
+
     .list ul {
         display: flex;
         list-style: none;
@@ -19,11 +18,24 @@
         display: none;
     }
 
+    /* planning section */
+
+    .second-container {
+        width: 100%;
+    }
+
+    .planning-section {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+    }
+
 }
 
-/* first card section  */
 
 @media screen and (min-width: 768px) {
+
+    /* function section */
 
     .function-card-section {
         flex-direction: row;
@@ -38,5 +50,12 @@
     .card {
         width: 30%;
     }
-    
+
+    /* planning section */
+
+    .second-container {
+        width: 100%;
+    }
+
+
 }
