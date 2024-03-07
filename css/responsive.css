@@ -20,3 +20,23 @@
     }
 
 }
+
+/* first card section  */
+
+@media screen and (min-width: 768px) {
+
+    .function-card-section {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .first-card {
+        width: 65%;
+    }
+
+    .card {
+        width: 30%;
+    }
+    
+}
