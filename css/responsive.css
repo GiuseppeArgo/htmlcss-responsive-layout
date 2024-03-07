@@ -1,0 +1,22 @@
+/* header */
+
+@media screen and (min-width: 992px) {
+
+    .container {
+        width: 60%;
+    }
+    
+    .list ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .list li {
+        padding: 0 10px;
+    }
+
+    .btn-container {
+        display: none;
+    }
+
+}
