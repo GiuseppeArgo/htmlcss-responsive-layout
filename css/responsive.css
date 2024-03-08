@@ -33,6 +33,13 @@
     .benefits .benefits-card {
         width: 30%;
     }
+
+    /* cta section */
+
+    .small-container {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 
 

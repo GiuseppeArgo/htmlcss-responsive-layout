@@ -35,7 +35,10 @@ img {
     justify-content: space-between;
 }
 
-
+.small-container {
+    width: 80%;
+    margin: 0 auto;
+}
 /* header */
 
 header {
@@ -142,4 +145,20 @@ main {
     /* debug */
     height: 300px;
     border: 1px solid black;
+}
+
+/* cta section */
+
+.cta {
+    background-color: #9792e4;
+    text-align: center;
+    color: white;
+}
+
+/* footer */
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
 }
